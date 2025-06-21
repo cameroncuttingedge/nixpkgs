@@ -4071,6 +4071,12 @@
       }
     ];
   };
+  cameroncuttingedge = {
+    email = "your.email@example.com";
+    github = "cameroncuttingedge";
+    githubId = 10954866;
+    name = "Cameron Byte"
+  };
   camerondugan = {
     email = "cameron.dugan@protonmail.com";
     github = "camerondugan";
