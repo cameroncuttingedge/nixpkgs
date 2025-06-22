@@ -4080,6 +4080,8 @@ self: super: with self; {
 
   djmail = callPackage ../development/python-modules/djmail { };
 
+  djoser = callPackage ../development/python-modules/djoser { };
+
   dkimpy = callPackage ../development/python-modules/dkimpy { };
 
   dlib = callPackage ../development/python-modules/dlib { inherit (pkgs) dlib; };
@@ -9927,6 +9929,8 @@ self: super: with self; {
   nampa = callPackage ../development/python-modules/nampa { };
 
   nanobind = callPackage ../development/python-modules/nanobind { };
+
+  nanoeigenpy = callPackage ../development/python-modules/nanoeigenpy { };
 
   nanoemoji = callPackage ../development/python-modules/nanoemoji { };
 
